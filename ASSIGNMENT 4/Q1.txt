@@ -1,0 +1,4 @@
+The code will not show an error. 
+This is because i[arr] is equivalent to arr[i] due to the way array indexing works in C++. 
+In the expression i[arr], i is treated as a pointer to the start of the array, and then arr is the offset.
+Therefore, the code will correctly print the elements of the array.

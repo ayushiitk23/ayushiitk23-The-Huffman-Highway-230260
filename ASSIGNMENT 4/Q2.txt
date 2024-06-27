@@ -1,0 +1,15 @@
+int arr[5]={2,8,18,34,5}; 
+char ch[6]=”abcde”; 
+cout<<arr<<endl; 
+cout<<ch;
+
+ 
+What output will you get in each line(address is printed or something else)? Why so?
+
+
+
+cout << arr << endl; will print the address of the first element of the integer array arr.
+
+cout << ch; will print the string "abcde".
+
+This is because arr is a pointer to the first element of the array, while ch is a null-terminated character array, which cout handles as a C-style string.
